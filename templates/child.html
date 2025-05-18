@@ -1,0 +1,9 @@
+<!-- extends 태그를 사용하여 parent.html을 상속받겠다고 선언. -->
+{% extends 'parent.html' %}
+{% block pageTitle %}
+Child - pageTitle 재정의
+{% endblock pageTitle %}
+
+{% block mainContent %}
+<p>child.html에서 parent.html을 상속하고 mainContent block을 재정의함</p>
+{% endblock mainContent %}

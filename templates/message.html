@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Message Example</title>
+    </head>
+    <body>
+        <!-- 매크로 임포트 -->
+        {% from 'macro.html' import displayMessage %}
+        <!-- 매크로 호출 -->
+        {{ displayMessage('example 1') }}
+        {{ displayMessage('example 2') }}
+        {{ displayMessage('example 3') }}
+    </body>
+</html>
